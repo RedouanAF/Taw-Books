@@ -14,7 +14,7 @@
 		"vitesse"
 	],
 	"scripts": {
-		"dev": "vite",
+		"dev": "vite --host",
 		"build": "vite-ssg build",
 		"serve": "vite preview",
 		"https-preview": "serve dist"

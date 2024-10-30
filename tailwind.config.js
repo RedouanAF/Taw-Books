@@ -4,8 +4,17 @@ module.exports = {
 	theme: {
 		extend: {
 			boxShadow: {
-				'yellow-shadow': '10px 8px 0px 1px #fdbf0f',
-				'blue-shadow': '-37px -33px 0px 0px #3AB8EB;',
+				'primary-shadow': '10px 8px 0px 1px var(--tertiary-color)',
+				'secondary-shadow':
+					'-37px -33px 0px 0px var(--secondary-color)',
+			},
+			fontFamily: {
+				syne: ['Syne', 'sans-serif'],
+			},
+			colors: {
+				primary: 'var(--tertiary-color)',
+				secondary: 'var(--secondary-color)',
+				'primary-text': '#3B3F5C',
 			},
 		},
 	},
