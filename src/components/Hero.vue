@@ -27,7 +27,7 @@
 						class="w-[100%] rounded-full border-[2px] border-[--medium-grey] shadow-primary-shadow px-[20px] py-[13px] placeholder:font-['Syne'] h-[41px]"
 					/>
 					<img
-						src="@/assets/MAGNIFYING_GLASS.svg"
+						src="/assets/MAGNIFYING_GLASS.svg"
 						alt="MagnifyingGlass"
 						class="absolute right-[20px] top-[50%] translate-y-[-50%]"
 					/>
@@ -37,7 +37,7 @@
 		</div>
 		<div class="align-self-end mt-[100px]">
 			<img
-				src="@/assets/hero-image.jpg"
+				src="/assets/hero-image.jpg"
 				alt="hero-image"
 				class="rounded-xl border-[2px] border-[--medium-grey] shadow-secondary-shadow w-[480px] h-[500px]"
 			/>

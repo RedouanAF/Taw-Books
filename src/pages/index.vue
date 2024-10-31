@@ -1,6 +1,5 @@
 <script setup lang="ts">
 	import { useStore } from '@/store';
-	import VitailseLogo from '@/assets/logo.png';
 	import TawHeader from '@/components/TawHeader.vue';
 	import Hero from '@/components/Hero.vue';
 	import Trending from '@/components/Trending.vue';

@@ -8,17 +8,9 @@ export {}
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     AppFooter: typeof import('./src/components/AppFooter.vue')['default']
-    AppHeader: typeof import('./src/components/AppHeader.vue')['default']
     BookCard: typeof import('./src/components/BookCard.vue')['default']
-    Button: typeof import('./src/components/Button.vue')['default']
     CtaButton: typeof import('./src/components/CtaButton.vue')['default']
-    Header: typeof import('./src/components/Header.vue')['default']
     Hero: typeof import('./src/components/Hero.vue')['default']
-    'Icon:bx:bxMoon': typeof import('~icons/bx/bx-moon')['default']
-    'Icon:bx:bxsMoon': typeof import('~icons/bx/bxs-moon')['default']
-    'IconAkarIcons:arrowRight': typeof import('~icons/akar-icons/arrow-right')['default']
-    'IconAkarIcons:binocular': typeof import('~icons/akar-icons/binocular')['default']
-    'IconAkarIcons:githubFill': typeof import('~icons/akar-icons/github-fill')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TawHeader: typeof import('./src/components/TawHeader.vue')['default']

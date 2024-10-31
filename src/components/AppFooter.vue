@@ -45,7 +45,7 @@
 							class="inline-flex items-center justify-center w-[50px] h-[50px] border-[2px] border-[--light-grey] rounded-full bg-white text-sm text-gray-600 transition-colors duration-300 dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 hover:underline shadow-primary-shadow"
 							><img
 								class="w-[26px] h-[26px]"
-								:src="`src/assets/${link.icon}.svg`"
+								:src="`/assets/${link.icon}.svg`"
 								:alt="link.icon"
 						/></a>
 					</div>

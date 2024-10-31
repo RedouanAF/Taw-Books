@@ -14,7 +14,7 @@
 		<div
 			class="w-[87px] h-[37px] rounded-[50px] absolute top-[247px] left-[50%] translate-x-[-50%] bg-white flex flex-row justify-center items-center"
 		>
-			<img src="@/assets/star.svg" alt="rating" />
+			<img src="/assets/star.svg" alt="rating" />
 			<span>{{ props.stars }}</span>
 		</div>
 		<div
@@ -30,7 +30,7 @@
 				<div
 					class="w-[50px] h-[50px] rounded-full bg-[#F2F2F2] flex flex-row justify-center items-center"
 				>
-					<img src="@/assets/heart.svg" alt="like" />
+					<img src="/assets/heart.svg" alt="like" />
 				</div>
 			</div>
 		</div>

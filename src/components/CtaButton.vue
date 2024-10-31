@@ -16,7 +16,7 @@
 		class="flex flex-row justify-center items-center gap-2 px-4 py-2 rounded-md border-[--medium-grey] border-[2px] w-[153px] h-[51px] bg-secondary text-[--medium-grey] text-[16px]"
 	>
 		<span class="font-syne text-white">{{ text }}</span>
-		<img :src="`src/assets/${icon}.svg`" alt="Binoculars" v-if="icon" />
+		<img :src="`/assets/${icon}.svg`" alt="Binoculars" v-if="icon" />
 	</button>
 </template>
 

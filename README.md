@@ -1,5 +1,7 @@
 # Taw Books
 
+preview: https://taw-books.netlify.app/
+
 ## Description
 
 Taw Books is a landing page that allows users to discover new books and authors. The page features a hero section with an image and a call-to-action button, a trending section showcasing popular books, a testimonials section with user reviews, and a footer with links to social media and contact information.
