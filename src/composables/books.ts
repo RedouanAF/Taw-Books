@@ -15,21 +15,21 @@ export function useBooks() {
 				resolve({
 					data: [
 						{
-							src: '/assets/the-bet.jpg',
+							src: '../assets/the-bet.jpg',
 							title: 'The Bet',
 							author: 'Anton Chekhov',
 							alt: 'The Bet',
 							stars: '4.8',
 						},
 						{
-							src: '/assets/two-worlds.jpeg',
+							src: '../assets/two-worlds.jpeg',
 							title: 'Two Worlds',
 							author: 'Francesco Verso',
 							alt: 'Two Worlds',
 							stars: '4.0',
 						},
 						{
-							src: '/assets/cicada.jpg',
+							src: '../assets/cicada.jpg',
 							title: 'Cicada',
 							author: 'Shaun Tan',
 							alt: 'Cicada',
